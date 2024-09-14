@@ -63,11 +63,9 @@ nav ul li a {
     padding: 2rem;
 }
 
-.temple-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+.temple-list {
+    list-style: none;
+    padding: 0;
 }
 
 .temple-card {
@@ -75,7 +73,7 @@ nav ul li a {
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    width: 300px;
+    margin-bottom: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
